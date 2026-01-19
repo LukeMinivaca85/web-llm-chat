@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "WebLLM Chat",
+    title: "Lukintosh AI | Se divirta!",
     statusBarStyle: "default",
   },
   openGraph: {
