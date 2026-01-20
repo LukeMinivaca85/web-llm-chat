@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://chat.webllm.ai"),
-  title: "WebLLM Chat",
+  metadataBase: new URL("https://ai.lukintosh.com"),
+  title: "Avalynx - A IA da Lukintosh",
   description:
     "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.",
   keywords: [
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     "language model",
     "no server",
   ],
-  authors: [{ name: "WebLLM Team" }],
-  publisher: "WebLLM",
-  creator: "WebLLM",
+  authors: [{ name: "Lukintosh Corporation" }],
+  publisher: "Lukintosh Corporation",
+  creator: "Lukintosh AI & Research",
   robots: "index, follow",
   viewport: {
     width: "device-width",
@@ -32,34 +32,34 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Lukintosh AI | Se divirta!",
+    title: "Avalynx - A IA da Lukintosh",
     statusBarStyle: "default",
   },
   openGraph: {
     type: "website",
-    url: "https://chat.webllm.ai",
-    title: "WebLLM Chat",
+    url: "https://ai.lukintosh.com",
+    title: "Avalynx - A IA da Lukintosh",
     description:
       "Chat with AI large language models running natively in your browser",
     siteName: "WebLLM Chat",
     images: [
       {
-        url: "https://chat.webllm.ai/mlc-logo.png",
+        url: "https://ai.lukintosh.com/mlc-logo.png",
         width: 360,
         height: 360,
-        alt: "WebLLM Chat - Browser-based AI conversation",
+        alt: "Avalynx - Browser-based AI conversation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "WebLLM Chat",
+    title: "Avalynx - A IA da Lukintosh",
     description:
       "Chat with AI large language models running natively in your browser",
-    images: ["https://chat.webllm.ai/mlc-logo.png"],
+    images: ["https://ai.lukintosh.com/mlc-logo.png"],
   },
   alternates: {
-    canonical: "https://chat.webllm.ai",
+    canonical: "https://ai.lukintosh.com",
   },
 };
 
@@ -123,8 +123,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              name: "WebLLM Chat",
-              url: "https://chat.webllm.ai",
+              name: "Avalynx",
+              url: "https://ai.lukintosh.com",
               description:
                 "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.",
               applicationCategory: "Artificial Intelligence",
@@ -136,7 +136,7 @@ export default function RootLayout({
               operatingSystem: "Web Browser",
               creator: {
                 "@type": "Organization",
-                name: "WebLLM",
+                name: "Lukintosh Corporation",
               },
             }),
           }}
